@@ -1,5 +1,6 @@
 import Home from "./Home";
 import Navbar from "./Navbar";
+import Notes from "./Notes";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/notes">
+            <Notes />
           </Route>
         </Switch>
       </div>
