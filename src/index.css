@@ -72,4 +72,13 @@
   border-radius: 30px;
   font-size: large;
   font: bold;
+  transition-duration: 300ms;
+}
+
+.home .items button:hover {
+  background-color: #469b7f;
+}
+
+.home .items button:active {
+  scale: 0.85;
 }
