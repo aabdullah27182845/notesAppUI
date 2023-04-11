@@ -1,8 +1,10 @@
+import Logo from "./Logo";
+
 const Navbar = () => {
     return ( 
         <nav className="navbar">
             <div className="logo">
-                Logo
+                <Logo />
             </div>
             <div className="links">
                 <ul>

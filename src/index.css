@@ -10,9 +10,15 @@
   align-content: center;
 }
 
+/* Logo CSS */
+.logo {
+  scale: 0.55;
+  translate: -10vw;
+}
+
 /* CSS for the Navigation Bar */
 .navbar {
-  padding: 20px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,8 +50,13 @@
 /* CSS for the home page */
 
 .home {
+  background-image: url(background-image.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 120%;
+  background-position-y: 10px;
   padding: 20px;
-  max-width: 60%;
+  max-width: 70%;
   margin: 0 auto;
   height: 80vh;
   display: flex;
