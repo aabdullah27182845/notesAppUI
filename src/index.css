@@ -44,5 +44,7 @@
 /* CSS for the home page */
 
 .home {
-  
+  padding: 20px;
+  max-width: 60%;
+  margin: 0 auto;
 }
