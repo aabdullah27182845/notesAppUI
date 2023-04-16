@@ -27,6 +27,10 @@
   border-bottom: 1px solid #f2f2f2;
 }
 
+.navbar .links {
+  translate: -3vw;
+}
+
 .navbar .links ul {
   display: flex;
   width: 300px;
@@ -92,4 +96,30 @@
 
 .home .items button:active {
   scale: 0.95;
+}
+
+/* CSS for notes page */
+
+.notes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.notes .note-container {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 10px;
+  padding: 10px;
+}
+
+.note-container .note {
+  height: 290px;
+  background-color: rgb(241, 241, 125);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: #333 25px solid;
 }
