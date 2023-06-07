@@ -4,11 +4,13 @@ const Notes = () => {
 
     const [elements, setElements] = useState([]);
 
+    // elements [{id, title, description}] - each mapped accordingly
+
     const changeElements = () => {
-        const newElements = elements.slice(0, 3);
-        console.log(newElements);
-        setElements(null);
-        setElements(newElements);
+        setElements([...elements, 
+        <div className="note" key={4}>
+            <h2>Hello</h2>
+        </div>])
     }
 
     for (let i = 0; i < 3; i++) {
